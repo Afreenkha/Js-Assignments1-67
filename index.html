@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--CHAPTER 43 -48-->
+    <!--QuESTION 1-->
+    <a href = "#"  onclick="alert('Thanks for Purchasing ;)')">Click here fellas!</a>
+
+    <!--QUESTION 2-->
+
+    <img src = "af.jpg" onclick="alert('Thanks For Purchasing')">
+    <img src = "ag.jpg" onclick="alert('Thanks For Purchasing')">
+
+    <!--QUESTION 3-->
+    <table>
+        
+            <tr>
+                <th>Seial number</th>
+                <th>Name </th>
+                <th>Class</th>
+            </tr>
+        
+        <tr>
+            <td>1</td>
+            <td>Afreen</td>
+            <td>14</td>
+            <td><button>Delete</button></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Hammad</td>
+            <td>14</td>
+            <td><button>Delete</button></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td> Saad</td>
+            <td>12<td>
+            <td><button>Delete</button></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Anila</td>
+            <td>12</td>
+            <td><button>Delete</button></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Hamza</td>
+            <td>11</td>
+            <td><button>Delete</button></td>
+        </tr>
+    </table>
+
+
+    <!--QUESTION 4-->
+
+    <img src = "cak.jpg" id = "gh" onmouseover="change()" onmouseout="src= 'cak.jpg' ">
+
+<!--QUESTIONN 5 -->
+
+
+<div class = "counter">
+    <button onclick="addnum()">Add</button>
+    <input type = "text" placeholder="Enter any number" id = "input">
+    <button onclick="subnum()">Minus</button>
+</div>
+<!--CHAPTER 49-52-->
+<!-- QUESTION 1-->
+<form action="#" onsubmit="showData()"> 
+<div class = "signup">
+<h1>SignUp Form</h1>
+Name :<input type = "text" placeholder="Full name" id = "user">
+Email : <input type = "text" placeholder="abcd@gmail.com" id = "email">
+Password : <input type="text" placeholder="********" id = "pss">
+<input type = "submit" value="Subbmit">
+
+<h4 id = "username"></h4>
+<h4 id = "Emailll"></h4>
+<h4 id = "Passu"></h4>
+
+</div>
+</form>
+
+<!--QUESTION 2-->
+<p id = "para"> This is to bring in your knowledge
+    <a href = "#" onclick="expand()">Click here for more Info</a>
+</p>
+
+<!--QUESTION 3-->
+<div class='signup'>
+    <h1>Enter Student Detail</h1>
+    <input type="text" placeholder="Enter Name" class='inpt'>
+    <input type="text" placeholder="Enter Your Class" class='inpt'>
+    <input type="text" placeholder="Enter Phone no." class='inpt'>
+    <input type="text" placeholder="Enter city" class='inpt'>
+    <button onclick='showDetail()'>Add detail</button>
+</div>
+
+<div id='tble'>
+    <table class="showData">
+        <thead>
+            <td><h3>Name</h3></td>
+            <td><h3>Standard</h3></td>
+            <td><h3>Phone no.</h3></td>
+            <td><h3>City</h3></td>
+        </thead>
+
+    </table>
+</div>
+<!--Question 2-->
+<div>
+    <p id = "txtt"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, enim? Provident accusamus, tenetur voluptate rerum molestias,
+         voluptatem explicabo omnis temporibus sint odio sapiente.
+          Tempora cumque rerum temporibus, laudantium facere ea.</p>
+<button onclick = "zoomin(txtt)">Zoom In </button>
+<button onclick="zoomout(txtt)">Zoom Out</button>
+
+        </div>
+        <!--CHAPTER 58-67-->
+<!--QUESTION 1-->
+        <div> <h1> DOM </h1> <div id=”form-content” class=”content”> <label for=”first-name”>First Name</label> 
+            <input type=”text” id=”first-name” /> <label for=”last-name”>Last Name</label>
+             <input type=”text” id=”last-name” /> <label for=”email”>Email</label> <input type=”text” id=”email” /> 
+            </div> <div id=”main-content” class=”content”> 
+            <p class=”render”> First Name : Alex</p> 
+            <p class=”render” id=”lastName”>Last Name: Bank</p> 
+            <p class=”render”> Email : alexbank@example.com</p> 
+            <p class=”render”> Country : Pakistan </p> 
+            <p class=”render”> contact : +92 300 1234567</p> </div> </div> 
+<script src = "app.js"></script>
+</body>
+</html>
